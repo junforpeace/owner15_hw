@@ -45,3 +45,4 @@ gradlew.bat
 settings.gradle
 gradlew.bat
 .idea
+gradle/wrapper
