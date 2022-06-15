@@ -6,8 +6,7 @@ import java.net.URL;
 
 
 @Config.Sources({
-        "classpath:config/remoteWebConfig.properties",
-        "classpath:${device}.properties"})
+        "classpath:${env}.properties"})
 public interface WebTestConfig extends Config {
 
     @Key("browser.name")
